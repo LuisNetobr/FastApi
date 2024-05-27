@@ -1,8 +1,15 @@
-import uvicorn
-from fastapi import FastAPI
-from fastapi import FastAPI, Depends, HTTPException
-from sqlalchemy import create_engine
-from sqlalchemy.orm import Session
+'''IMPORTAÇÕES:'''
+import uvicorn '''Importamos a biblioteca "uvicorn" para criar um servidor web para hospedar a aplicação.'''
+from fastapi import FastAPI '''Importamos o framework fastAPI.'''
+
+from fastapi import FastAPI, Depends, HTTPException '''O "Depends" serve para colocar dependências nas
+funções de rota, e o "HTTPException" serve para gerar exceções HTTP.'''
+
+from sqlalchemy import create_engine '''Importamos a função "create_engine" de "sqlalchemy" para conectar
+a aplicação com o banco de dados.'''
+
+from sqlalchemy.orm import Session '''Por fim, importamos do módulo "sqlalchemy.orm" a classe "Session", 
+que vai funcionar como intermediadora entre as interações da aplicação com o banco de dados.'''
 
 app = FastAPI()
 
