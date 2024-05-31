@@ -11,17 +11,27 @@ a aplicação com o banco de dados.'''
 from sqlalchemy.orm import Session '''Por fim, importamos do módulo "sqlalchemy.orm" a classe "Session", 
 que vai funcionar como intermediadora entre as interações da aplicação com o banco de dados.'''
 
-app = FastAPI()
+'''-------------------------------------------------------------------------------------------------------------------'''
+'''FUNÇÕES:'''
 
-@app.post("/CadastrarProdutos", status_code=201)
-def cadastrar_produto(produto: Produto, db: Session = Depends(get_db)):
+app = FastAPI()'''É criada a instância do fastAPI'''
+
+@app.post("/CadastrarProdutos", status_code=201)''' Com o "@app.post("/CadastrarProdutos"), criamos uma rota para
+ "cadastrar_Produto", e o parâmetro  HTTP 201, indica que a requisição do usuário foi bem sucedida. '''
+
+def cadastrar_produto(produto: Produto, db: Session = Depends(get_db)):'''Criamos a função de
+ "cadastrar_produto" que recebe de parâmetros o "produto" e o "db(banco de dados)"'''
     try:
-        novo_produto = Produto(**produto.dict())
-        db.add(novo_produto)
-        db.commit()
-        return {"mensagem": "Produto cadastrado com sucesso!"}
+        novo_produto = Produto(**produto.dict())'''Criamos o "novo produto" com base no valor digitado no
+parâmetro "produto", **produto.dict() serve para desempacotar converter esse valor do produto em dicionário '''
+        
+        db.add(novo_produto)'''Adiciona um novo produto ao banco de dados'''
+        db.commit()'''Comitamos as alterações no banco de dados'''
+        return {"mensagem": "Produto cadastrado com sucesso!"}''' Se o cadastro do produto for bem sucedido, mostra a "mensagem")'''
     except Exception as e:
-        raise HTTPException(status_code=500, detail="Erro ao cadastrar produto")
+        raise HTTPException(status_code=500, detail="Erro ao cadastrar produto")'''Se o cadastro do produto não for bem sucedido,
+        mostra a "mensagem"'''
+
 
 @app.get("/ListarProdutos")
 def listar_produtos(db: Session = Depends(get_db)):
