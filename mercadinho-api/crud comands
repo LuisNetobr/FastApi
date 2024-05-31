@@ -1,0 +1,31 @@
+Comandos para interagir com a api atravez do power shell
+
+
+adicionar:
+
+$body = @{
+    name = "ovo"
+    price = 10
+    quantity = 100
+} | ConvertTo-Json
+
+Invoke-RestMethod -Uri "http://localhost:8000/products" -Method POST -Body $body -ContentType "application/json"
+
+
+atualizar:
+
+
+$body = @{
+    id = 1
+    name = "ovo"
+    price = 15
+    quantity = 150
+} | ConvertTo-Json
+
+Invoke-RestMethod -Uri "http://localhost:8000/products/2" -Method PUT -Body $body -ContentType "application/json"
+
+deletar:
+
+Invoke-RestMethod -Uri "http://localhost:8000/products/1" -Method DELETE
+
+
