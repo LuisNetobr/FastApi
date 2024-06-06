@@ -10,6 +10,7 @@ from sqlalchemy.ext.declarative import declarative_base
 que vai permitir interagir com o banco de dados. """
 from sqlalchemy.orm import sessionmaker
 
+
 """O "os" é uma biblioteca que tem funcionalidades que permite
  o app interagir com o sistema operacional. """
 import os
@@ -37,3 +38,4 @@ def get_db():
         yield db
     finally:
         db.close()
+

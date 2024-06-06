@@ -13,8 +13,9 @@ coluna de id, nome, preço e quantidade do produto, juntamente com o tipo de val
 que vão ter (Integer, String, Float). 
 A coluna id é a chave primaria, e o index=true cria um indice para a coluna "id" e "name"
 para que seja possível encontrar rapidamente os valores na tabela."""
-class Product(Base):
-    __tablename__ = "products"
+
+class Products(Base):
+    __tablename__ = "Products"
 
     id = Column(Integer, primary_key=True, index=True)
     name = Column(String, index=True)

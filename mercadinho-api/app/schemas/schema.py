@@ -2,14 +2,14 @@ from pydantic import BaseModel
 
 class ProductBase(BaseModel):
     name: str
-    price: float
     quantity: int
+    price: float
 
-class ProductCreate(ProductBase):
+
+class CreateProduct(ProductBase):
     pass
 
 class Product(ProductBase):
     id: int
-
     class Config:
         orm_mode = True
