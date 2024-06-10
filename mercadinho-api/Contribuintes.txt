@@ -1,70 +1,70 @@
 Contribuidores:
 
 
-LuÌs Cardoso
+Lu√≠s Cardoso
 
 
-Fiquei respons·vel por gerenciar a equipe e auxiliar todos como o lÌder do projeto, atravÈs disso fiz uso do conhecimento abordado em sala pra auxiliar aqueles que tiveram dificuldades com o uso do github e  do docker, tambÈm separei a funÁ„o pra cada um com base em suas aptidıes para assim ter uma melhor perfomance na hora de desenvolver o cÛdigo, tambÈm ajudei em algumas correÁıes no cÛdigo que estavam dando erros e fiz testes para verificar seu funcionamento.
+Fiquei respons√°vel por gerenciar a equipe e auxiliar todos como o l√≠der do projeto, atrav√©s disso fiz uso do conhecimento abordado em sala pra auxiliar aqueles que tiveram dificuldades com o uso do github e  do docker, tamb√©m separei a fun√ß√£o pra cada um com base em suas aptid√µes para assim ter uma melhor perfomance na hora de desenvolver o c√≥digo, tamb√©m ajudei em algumas corre√ß√µes no c√≥digo que estavam dando erros e fiz testes para verificar seu funcionamento.
 
 
 Lucas Emanuel
 
-Assumi uma responsabilidade significativa em diversas ·reas, Inicialmente fui respons·vel pela criaÁ„o da estrutura b·sica do sistema,Para que meu grupo pudesse comeÁar o projeto adequadamente . AlÈm disso, desenvolvi o Docker para o mercadinho, configurando os contÍineres e otimizando o ambiente. TambÈm desempenhei um papel crucial na criaÁ„o das funÁıes CRUD, colaborando e auxiliando com a equipe para garantir que as operaÁıes com banco de dados estivessem funcionando corretamente
+Assumi uma responsabilidade significativa em diversas √°reas, Inicialmente fui respons√°vel pela cria√ß√£o da estrutura b√°sica do sistema,Para que meu grupo pudesse come√ßar o projeto adequadamente . Al√©m disso, desenvolvi o Docker para o mercadinho, configurando os cont√™ineres e otimizando o ambiente. Tamb√©m desempenhei um papel crucial na cria√ß√£o das fun√ß√µes CRUD, colaborando e auxiliando com a equipe para garantir que as opera√ß√µes com banco de dados estivessem funcionando corretamente
 
 
 BRUNO MARCEL
 
-Minha responsabilidade foi documentar 2 partes essenciais do projeto: mÛdulo routers e mÛdulo schemas da aplicaÁ„o. 
+Minha responsabilidade foi documentar 2 partes essenciais do projeto: m√≥dulo routers e m√≥dulo schemas da aplica√ß√£o. 
 
-DocumentaÁ„o dos Routers
+Documenta√ß√£o dos Routers
 
-A documentaÁ„o do arquivo some_router.py foi um dos principais focos. Este arquivo define as rotas da API relacionadas ao gerenciamento de produtos, utilizando o framework FastAPI.
+A documenta√ß√£o do arquivo some_router.py foi um dos principais focos. Este arquivo define as rotas da API relacionadas ao gerenciamento de produtos, utilizando o framework FastAPI.
 
-CriaÁ„o de Produto: Expliquei como a aplicaÁ„o permite a criaÁ„o de novos produtos atravÈs de uma rota especÌfica que aceita dados de entrada e retorna o produto criado.
+Cria√ß√£o de Produto: Expliquei como a aplica√ß√£o permite a cria√ß√£o de novos produtos atrav√©s de uma rota espec√≠fica que aceita dados de entrada e retorna o produto criado.
 
-Leitura de Produtos: Documentei as rotas que permitem obter tanto uma lista de produtos quanto um produto especÌfico pelo seu ID, detalhando como a aplicaÁ„o recupera esses dados do banco de dados.
+Leitura de Produtos: Documentei as rotas que permitem obter tanto uma lista de produtos quanto um produto espec√≠fico pelo seu ID, detalhando como a aplica√ß√£o recupera esses dados do banco de dados.
 
-AtualizaÁ„o de Produto: Descrevi o processo de atualizaÁ„o de um produto existente, explicando a rota e como os dados s„o validados e persistidos no banco de dados.
+Atualiza√ß√£o de Produto: Descrevi o processo de atualiza√ß√£o de um produto existente, explicando a rota e como os dados s√£o validados e persistidos no banco de dados.
 
-Exclus„o de Produto: Documentei a rota que permite deletar um produto, incluindo o tratamento de exceÁıes caso o produto n„o seja encontrado.
+Exclus√£o de Produto: Documentei a rota que permite deletar um produto, incluindo o tratamento de exce√ß√µes caso o produto n√£o seja encontrado.
 
-DocumentaÁ„o dos Schemas
+Documenta√ß√£o dos Schemas
 
-AlÈm dos routers, tambÈm documentei o arquivo principal dos schemas. Os schemas s„o respons·veis pela validaÁ„o dos dados que entram e saem da aplicaÁ„o, garantindo que a API manipule apenas dados corretos e no formato esperado.
+Al√©m dos routers, tamb√©m documentei o arquivo principal dos schemas. Os schemas s√£o respons√°veis pela valida√ß√£o dos dados que entram e saem da aplica√ß√£o, garantindo que a API manipule apenas dados corretos e no formato esperado.
 
 
 
 
 Juan Nascimento
 
-Minha funÁ„o neste projeto foi desenvolver as rotas da nossa API. Fiquei respons·vel por implementar as seguintes funcionalidades:
+Minha fun√ß√£o neste projeto foi desenvolver as rotas da nossa API. Fiquei respons√°vel por implementar as seguintes funcionalidades:
 
-create_product: Rota respons·vel pela criaÁ„o de novos produtos e pelo cadastro dos mesmos no banco de dados.
+create_product: Rota respons√°vel pela cria√ß√£o de novos produtos e pelo cadastro dos mesmos no banco de dados.
 
-read_product: Rota que permite a consulta de um produto especÌfico no banco de dados, utilizando seu ID.
+read_product: Rota que permite a consulta de um produto espec√≠fico no banco de dados, utilizando seu ID.
 
-read_products: Rota que recupera e lista todos os produtos disponÌveis no banco de dados.
+read_products: Rota que recupera e lista todos os produtos dispon√≠veis no banco de dados.
 
-update_product: Rota destinada ‡ atualizaÁ„o das informaÁıes de um produto especÌfico, identificado pelo seu ID, no banco de dados.
+update_product: Rota destinada √† atualiza√ß√£o das informa√ß√µes de um produto espec√≠fico, identificado pelo seu ID, no banco de dados.
 
 delete_product: Rota que remove um produto do banco de dados com base em seu ID.
 
 VINCIUS LEITE VIEIRA
  
-RESPONS¡VEL PELO O DESENVOLVIMENTO DAS ROTAS DA API:
+RESPONS√ÅVEL PELO O DESENVOLVIMENTO DAS ROTAS DA API:
  
  
-Fique respons·vel por definir as rotas dos produtos que tem por base a maneira que os produtos se comportam na aplicaÁ„o,
+Fiquei respons√°vel por definir as rotas dos produtos que tem por base a maneira que os produtos se comportam na aplica√ß√£o,
  
 Arquivo `routes.py`
  
-Essas Rotas s„o :
+Essas Rotas s√£o :
  
 DELETE/
 CADASTRAR /
 CRIAR/
  
-Cada rota dessas demonstra a forma como a aplicaÁ„o do produto se comporta na api.
+Cada rota dessas demonstra a forma como a aplica√ß√£o do produto se comporta na api.
  
  
 
@@ -73,21 +73,21 @@ Cada rota dessas demonstra a forma como a aplicaÁ„o do produto se comporta na ap
 
 ROBERT EVERTHON
 
-Minha funÁ„o foi realizar a documentaÁ„o do projeto, especificamente dos mÛdulos main, database, crud_product e product.
+Minha fun√ß√£o foi realizar a documenta√ß√£o do projeto, especificamente dos m√≥dulos main, database, crud_product e product.
 
-DocumentaÁ„o do main:
-Na documentaÁ„o do main, basicamente importamos os mÛdulos, bibliotecas e as classes que fizemos,
-criamos uma inst‚ncia e uma funÁ„o para executar a oplicaÁ„o.
+Documenta√ß√£o do main:
+Na documenta√ß√£o do main, basicamente importamos os m√≥dulos, bibliotecas e as classes que fizemos,
+criamos uma inst√¢ncia e uma fun√ß√£o para executar a oplica√ß√£o.
 
-DocumentaÁ„o do database:
-Aqui documentei a ligaÁ„o com o banco de dados importando a biblioteca "sqlalchemy",
-que contem as ferramentas necess·rias para interagir com o banco de dados.
+Documenta√ß√£o do database:
+Aqui documentei a liga√ß√£o com o banco de dados importando a biblioteca "sqlalchemy",
+que contem as ferramentas necess√°rias para interagir com o banco de dados.
 
-DocumentaÁ„o do product:
-coloquei a documentaÁ„o do "product", aqui È onde se tem as instruÁıes para criar o objeto "produto" que vamos
+Documenta√ß√£o do product:
+coloquei a documenta√ß√£o do "product", aqui √© onde se tem as instru√ß√µes para criar o objeto "produto" que vamos
 utilizar no crud.
 
-DocumentaÁ„o do crud_product:
+Documenta√ß√£o do crud_product:
 Aqui documentei, o CRUD do produto, que recebe como base a classe product que criamos para adicionar,
 buscar, atualizar e procurar os produtos no banco de dados.
 
@@ -97,4 +97,4 @@ buscar, atualizar e procurar os produtos no banco de dados.
 
 
 
-"Cada pessoa descreveu sua funÁ„o conforme seu ponto de vista"
+"Cada pessoa descreveu sua fun√ß√£o conforme seu ponto de vista"
